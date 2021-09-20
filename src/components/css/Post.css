@@ -1,3 +1,15 @@
 .card-post{
     width: 100% !important;
 }
+
+.card-post p, .card-post button{
+    font-size: 12px !important;
+}
+
+.card-post h5{
+    font-size: 16px;
+}
+
+img{
+    width: 100% !important;
+}
