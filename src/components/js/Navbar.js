@@ -4,7 +4,7 @@ function Navbar(){
     return(
         <nav className="navbar navbar-dark bg-dark bg-opacity-50 mb-3">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#">Modulo 4</a>
+            <a className="navbar-brand" href="./">Modulo 4</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span classNameName="text-white text-right"><i className="fas fa-user text-white "></i></span>
             </button>
@@ -16,13 +16,13 @@ function Navbar(){
             <div className="offcanvas-body bg-dark">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i>  Home</a>
+                        <a className="nav-link active" aria-current="page" href="./"><i class="fas fa-home"></i>  Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"><i class="fas fa-user"></i> Perfil</a>
+                        <a className="nav-link" href="./"><i class="fas fa-user"></i> Perfil</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"><i class="fas fa-heart"></i>  Favoritos</a>
+                        <a className="nav-link" href="./"><i class="fas fa-heart"></i>  Favoritos</a>
                     </li>
                 </ul>
             </div>
