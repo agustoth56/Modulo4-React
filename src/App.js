@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/js/Navbar';
-import SearchBar from './components/js/SearchBar';
 import PostList from './components/js/PostList';
 import Loading from './components/js/Loading';
 import Profile from './components/js/Profile';
