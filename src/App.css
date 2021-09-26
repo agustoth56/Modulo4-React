@@ -2,3 +2,7 @@ button:focus, input:focus{
   outline: none !important;
   box-shadow: none !important;
 }
+
+.bg-body{
+  background-color: rgb(8,9,10) !important;
+}
