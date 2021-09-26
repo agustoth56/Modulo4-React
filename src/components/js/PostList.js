@@ -1,9 +1,11 @@
 import '../css/PostList.css';
 import Post from './Post';
+import SearchBar from './SearchBar';
 
 function PostList({posts}){
     return(
         <div className="PostList">
+            <SearchBar/>
             <div className="row justify-content-center">
                     {
                     

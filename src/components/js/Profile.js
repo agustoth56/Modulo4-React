@@ -1,15 +1,18 @@
-import '../css/SearchBar.css';
+import '../css/Profile.css';
 
-function SearchBar(){
+function Profile({user}){
+    const user1 = user[0].user;
     return(
         <div className="">
-            <div className="row mb-3 justify-content-center">
-                <div className="col-12 col-xs-8 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                    <input type="text" className="form-control bg-dark text-white" id="formGroupExampleInput" placeholder="Search"/>
+            <div className="row mb-3 justify-content-center text-center text-light">
+                <div className="col-12">
+                    <img src={user1.avatar} className="rounded-circle avatar" alt={user1.username} />
+                    <h2 className="mt-3">{user1.username}</h2>
+                    <p className="mt-4">{user1.bio}</p>
                 </div>
             </div>
         </div>
     )
 }
 
-export default SearchBar;
+export default Profile;

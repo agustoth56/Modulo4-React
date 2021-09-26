@@ -1,6 +1,6 @@
 import '../css/SearchBar.css';
 
-function SearchBar(){
+function Loading(){
     return(
             <div className="row mb-3 mt-5 justify-content-center ">
                 <div className="col-12 col-xs-8 col-sm-8 col-md-6 col-lg-5 col-xl-4 text-center">    
@@ -16,4 +16,4 @@ function SearchBar(){
     )
 }
 
-export default SearchBar;
+export default Loading;
