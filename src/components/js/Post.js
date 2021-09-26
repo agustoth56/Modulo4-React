@@ -1,39 +1,42 @@
 import '../css/Post.css';
-import img1 from '../img/img1.png';
 
 
-function Post(){
+function Post({key, user, date, image, comments, text, likes}){
     return(
-        <div className="card card-post text-white bg-dark ">
+        <div className="card card-post text-white bg-dark">
             <div className="m-3">
-                <h5 className="card-title m-0">@agustoth56</h5>
+                <h5 className="card-title m-0">{user}</h5>
             </div>                
             <div className="mx-auto">
-                <img src={img1} className="card-img-top" alt="..."/>
+                <img src={image} className="card-img-top" alt="..."/>
             </div>
             <div className="card-body">
                 <div className="row">
                     <div className="col-6">
-                        <p class="card-text"><small class="text-muted">3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted">{date}</small></p>
                     </div>
                     <div className="col-6 text-end">
                         <button type="button" class="btn btn-danger"><i class="fas fa-heart"></i> Like</button>
                     </div>              
+                    <div className="col-6">
+                        <p class="card-text"><small class="text-white"><strong>{likes} likes</strong></small></p>
+                    </div>
                 </div>
                 
                 <div className="row">
                     <div className="col-12 mt-3 mb-3">
-                        <p className="card-text"><strong>@agustoth56</strong> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p className="card-text"><strong>{user}</strong> {text.slice(0,100)}...</p>
                     </div>
                 </div>
                 
                 <div className="row">
                     <div className="col-12">
-                        <p class="card-text"><small class="text-muted"><i class="far fa-comment-alt"></i> Comentarios (15)</small></p>
+                        <p class="card-text"><small class="text-muted"><i class="far fa-comment-alt"></i> Comentarios ({comments})</small></p>
                     </div>
                 </div>
             </div>
         </div>
+
     )
 }
 

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "username": "@agustoth56",
+      "avatar": "https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat tortor, id ornare dui feugiat nec. Pellentesque venenatis tincidunt sapien, sit amet mattis orci dapibus eu. Aenean dapibus massa ac orci cursus euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque at vestibulum sapien. Suspendisse potenti. Nullam viverra tincidunt dolor aliquet euismod. Donec tristique gravida massa eu varius. Suspendisse viverra ipsum vel urna blandit, et pulvinar mauris elementum. Nulla facilisi. Ut eu arcu ut nulla finibus tincidunt viverra et lectus."
+    },
+    "created_at": "2021-09-24",
+    "image": "https://via.placeholder.com/600/b04f2e",
+    "comments": 26,
+    "text": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    "likes": 52
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 1,
+      "username": "@jess4852",
+      "avatar": "https://pickaface.net/gallery/avatar/unr_jess_161205_2219_22ljt3l0h.png",
+      "bio": "Quisque a justo suscipit, malesuada purus in, malesuada elit. Integer consequat a metus in elementum. Aenean sit amet tellus cursus, pharetra purus et, convallis turpis. Nulla id porta ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nibh nisl, aliquam quis turpis quis, dictum venenatis elit. Duis volutpat pretium enim, vitae malesuada sapien scelerisque quis. Mauris nulla leo, facilisis id tortor sed, lobortis venenatis dolor. Phasellus diam felis, mattis non odio id, mattis laoreet eros. Suspendisse sagittis turpis efficitur nisl pulvinar gravida. Ut vitae iaculis quam."
+    },
+    "created_at": "2021-09-23",
+    "image": "https://via.placeholder.com/600/a77d08",
+    "comments": 9,
+    "text": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+    "likes": 82
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 1,
+      "username": "@mendesjr9823",
+      "avatar": "https://pickaface.net/gallery/avatar/unr_mendes_180523_2343_8d81qy.png",
+      "bio": "Praesent convallis, sapien nec maximus consectetur, libero diam gravida sem, congue molestie lectus leo in turpis. Fusce scelerisque iaculis ex, quis dictum quam tincidunt ut. Mauris laoreet feugiat luctus. Duis eu rhoncus enim, nec suscipit arcu. Curabitur quam urna, vulputate at est nec, facilisis luctus felis. Sed elementum laoreet arcu, non maximus tellus. Vivamus tincidunt odio non tellus semper, quis accumsan elit hendrerit. Fusce efficitur malesuada elit. Fusce aliquam ante sed tellus varius porta. Vivamus eu ligula eros."
+    },
+    "created_at": "2021-09-22",
+    "image": "https://via.placeholder.com/600/1fb08b",
+    "comments": 5,
+    "text": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+    "likes": 15
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 1,
+      "username": "@mariah98",
+      "avatar": "https://pickaface.net/gallery/avatar/20121009_071652_192_Mariah.png",
+      "bio": "Cras pretium blandit tincidunt. Nullam sed ullamcorper dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris commodo neque quis elementum fringilla. Fusce a orci id nisl facilisis luctus quis non tellus. Ut eget sem at turpis fringilla cursus nec ac risus. Donec vel faucibus turpis. Praesent tincidunt leo a massa posuere consequat. Quisque finibus, metus eget placerat aliquet, justo justo ultrices neque, maximus convallis massa quam quis nisl. Sed ligula ex, rutrum ac rhoncus vitae, ultrices et tortor. Nam tempor ipsum sit amet hendrerit iaculis. Donec vel lectus orci. Curabitur vehicula, sem id feugiat porttitor, arcu nisi rutrum neque, et tempor urna justo quis dui. Mauris ac tempor neque, gravida facilisis lorem. Aliquam id lectus interdum, venenatis purus molestie, viverra sem."
+    },
+    "created_at": "2021-09-21",
+    "image": "https://via.placeholder.com/600/e2223e",
+    "comments": 1,
+    "text": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+    "likes": 8
+  },
+  {
+    "id": 5,
+    "user": {
+      "id": 1,
+      "username": "@osas",
+      "avatar": "https://pickaface.net/gallery/avatar/Osas54010993165a6.png",
+      "bio": "Suspendisse potenti. Phasellus nec dui interdum, mollis neque a, imperdiet nulla. Mauris accumsan consectetur quam eu pharetra. Nam volutpat vulputate efficitur. Suspendisse blandit dui et velit pretium, ac porta sem laoreet. Aliquam dapibus purus ut est interdum, quis ullamcorper nunc ultricies. Phasellus vel justo imperdiet, gravida eros sed, dapibus lectus. Pellentesque eleifend venenatis sapien, vitae auctor diam faucibus nec. In dignissim, sapien quis sagittis molestie, dui nisi facilisis libero, ut ultricies odio dolor nec sem. Proin maximus venenatis nibh non ornare. Pellentesque elementum mollis justo, quis luctus ante convallis tincidunt. Vestibulum vehicula hendrerit sollicitudin. Praesent scelerisque purus vel aliquet porta. Vivamus posuere in ex ut ornare."
+    },
+    "created_at": "2021-09-20",
+    "image": "https://via.placeholder.com/600/de79c7",
+    "comments": 26,
+    "text": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
+    "likes": 16
+  }
+]

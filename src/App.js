@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/js/Navbar';
 import SearchBar from './components/js/SearchBar';
 import PostList from './components/js/PostList';
+import Posts from './components/data/posts.json';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar/>
       <div className="container">
         <SearchBar/>
-        <PostList/>
+        <PostList posts={Posts}/>
       </div>
     </div>
   );
