@@ -1,7 +1,20 @@
 import '../css/Post.css';
+import React, {useState} from "react";
 
 
-function Post({key, user, date, image, comments, text, likes}){
+
+function Post({user, date, image, comments, text, likes}){
+    //no pude resolverlo con state, intente muchas cosas en diferentes archivos, desde el App, 
+    // desde el PostList, desde este archivo y no pude hacerlo 
+    // asi que lo solucione con Hooks usando el useStates que en teoria es lo mismo
+    const Likes = () => {
+        const [like, setLikes] = useState(likes);
+        return (            
+            <div>
+                <button onClick={() => setLikes(like === likes ? like + 1 : like - 1)} type="button" className={`${like === likes ? 'btn-dark' : 'btn-danger'} btn`}><i className="fas fa-heart"></i> {like}</button>
+            </div>
+        );
+    };
     return(
         <div className="card card-post text-white bg-dark">
             <div className="m-3">
@@ -13,13 +26,10 @@ function Post({key, user, date, image, comments, text, likes}){
             <div className="card-body">
                 <div className="row">
                     <div className="col-6">
-                        <p class="card-text"><small class="text-muted">{date}</small></p>
+                        <p className="card-text"><small className="text-muted">{date}</small></p>
                     </div>
                     <div className="col-6 text-end">
-                        <button type="button" class="btn btn-danger"><i class="fas fa-heart"></i> Like</button>
-                    </div>              
-                    <div className="col-6">
-                        <p class="card-text"><small class="text-white"><strong>{likes} likes</strong></small></p>
+                        {Likes()}
                     </div>
                 </div>
                 
@@ -31,9 +41,10 @@ function Post({key, user, date, image, comments, text, likes}){
                 
                 <div className="row">
                     <div className="col-12">
-                        <p class="card-text"><small class="text-muted"><i class="far fa-comment-alt"></i> Comentarios ({comments})</small></p>
+                        <p className="card-text"><small className="text-muted"><i className="far fa-comment-alt"></i> Comentarios ({comments})</small></p>
                     </div>
                 </div>
+
             </div>
         </div>
 
