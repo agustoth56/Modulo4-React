@@ -18,6 +18,10 @@ class App extends React.Component {
     this.setState({section})
   }
 
+  findSearch(search){
+    this.setState({search});
+  }
+
   componentDidMount() {
     setTimeout(() => {
       this.setState({posts})
@@ -32,22 +36,28 @@ class App extends React.Component {
           onProfileClick={(section) => this.changePage(section)} 
           onLogoClick={(section) => this.changePage(section)}
         />
-        <div className="container">
           {
             this.state.section === 'user' ? (
-              <Profile user={posts}/>
+              <div className="container">
+                <Profile user={posts}/>
+              </div>
             ) : (
               this.state.posts.length > 0 ? (
-                <div>
-                  <SearchBar search={'search'}/>
-                  <PostList posts={this.state.posts} search={this.state.search}/>
+                <div className="container">
+                  <SearchBar 
+                    search={this.state.search} 
+                    onSearch={(search) => this.findSearch(search)}
+                  />
+                  <PostList 
+                    posts={this.state.posts} 
+                    search={this.state.search}
+                  />
                 </div>
               ) : (
                 <Loading/>
               )
             )
           }
-        </div>
       </div>
     );
   }
